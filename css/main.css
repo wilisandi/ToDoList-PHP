@@ -1,0 +1,43 @@
+
+.bg-theme label,input,li,p,a,s,button{
+    color:white !important;
+}
+.bg-theme li{
+    background-color:rgb(255 255 255 / 8%) !important;
+}
+.bg-theme .nav-link.active{
+    background-color:rgb(255 255 255 / 8%) !important;
+}
+.bg-theme .nav-tabs .nav-link:hover {
+    background-color:rgb(255 255 255 / 8%) !important;
+}
+/* .bg-theme .form-outline .form-control~.form-notch div {
+    pointer-events: none !important;
+    box-sizing: border-box !important;
+    background: transparent !important;
+    border: 1px solid #253042cf !important;
+} */
+/* .bg-theme .form-outline .form-control~.form-notch .form-notch-middle {
+    flex: 0 0 auto;
+    width: auto !important;
+    max-width: calc(100% - 1rem);
+    height: 100%;
+    border-right: none;
+    border-left: none;
+} */
+.bg-theme{
+    background: #001220;
+}
+.card-primary{
+    box-shadow: -9px 9px 60px -2px rgba(0,0,0,0.76);
+-webkit-box-shadow: -9px 9px 60px -2px rgba(0,0,0,0.76);
+-moz-box-shadow: -9px 9px 60px -2px rgba(0,0,0,0.76);
+}
+.gradient-custom {
+    height: 100%;
+    background-image: url(../img/background.svg);
+    background-size:100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size:cover;
+}
