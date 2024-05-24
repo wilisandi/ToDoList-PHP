@@ -25,7 +25,7 @@
                         <div class="card-body p-4">
                             <form class="justify-content-center align-items-center mb-4" action="controller/login.php" method="post" autocomplete="off" autocapitalize="false">
                                 <div class="form-outline flex-fill my-4">
-                                    <input type="text" id="email" class="form-control" />
+                                    <input type="text" id="email" name="email" class="form-control" />
                                     <label class="form-label" for="email">Email</label>
                                     <div class="form-notch">
                                         <div class="form-notch-leading" style="width: 9px;"></div>
@@ -34,7 +34,7 @@
                                     </div>
                                 </div>
                                 <div class="form-outline flex-fill my-4">
-                                    <input type="password" id="password" class="form-control" />
+                                    <input type="password" id="password" name="password" class="form-control" />
                                     <label class="form-label" for="password">Password</label>
                                     <div class="form-notch">
                                         <div class="form-notch-leading" style="width: 9px;"></div>

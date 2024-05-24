@@ -1,7 +1,11 @@
 <?php
   session_start(); 
-  if(!isset($_SESSION["user"])){
-    header('Location: login.php');
+  if(!isset($_SESSION["login"])){
+      header('Location: login.php');
+  }else{
+    if(!$_SESSION["login"]==true){
+      header('Location: login.php');
+    }
   }
   include("components/header.php") ;
 ?>

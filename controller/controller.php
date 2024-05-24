@@ -20,7 +20,7 @@ class Controller
     public function Login(string $email, string $password): GlobalResponse
     {
         if(isset($email) && isset($password)){
-            $sql = "SELECT * FROM $this->tblUser WHERE email = '$email' AND password = md5('$password')";
+            $sql = "SELECT * FROM $this->tblUser WHERE `email` = '$email' AND `password` = md5('$password')";
             $result = mysqli_query($this->koneksi, $sql);
             if (mysqli_num_rows($result) > 0) {
                 $row = mysqli_fetch_assoc($result);
